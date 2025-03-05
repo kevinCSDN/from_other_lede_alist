@@ -26,9 +26,9 @@ sed -i 's/PATCHVER:=5.15/PATCHVER:=5.4/g' target/linux/x86/Makefile   # x86机�
 #./scripts/feeds install -a
 
 #替换为新版本golang
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
-./scripts/feeds install -a
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+#./scripts/feeds install -a
 # rm -rf feeds/packages/utils/runc/Makefile   # 临时删除run1.0.3
 # svn export https://github.com/openwrt/packages/trunk/utils/runc/Makefile feeds/packages/utils/runc/Makefile   # 添加runc1.0.2
 
